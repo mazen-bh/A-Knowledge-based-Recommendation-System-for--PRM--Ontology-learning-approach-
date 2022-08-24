@@ -1,0 +1,2123 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://project_risk_management.com/project"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://project_risk_management.com/project">
+    <Prefix name="" IRI="http://project_risk_management.com/project"/>
+    <Prefix name="ns1" IRI="http://project_risk_management.com/project#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Identify_risks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identify_risks_Inputs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identify_risks_outputs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identify_risks_tools_and_techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#New_Plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perform_Qualitative_risk_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perform_Qualitative_risk_Analysis_Inputs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perform_Qualitative_risk_Analysis_outputs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perform_Qualitative_risk_Analysis_tools_and_techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perform_Quantitative_risk_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perform_Quantitative_risk_Analysis_Inputs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perform_Quantitative_risk_Analysis_outputs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perform_Quantitative_risk_Analysis_tools_and_techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plan_risk_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plan_risk_Management_Inputs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plan_risk_Management_outputs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plan_risk_Management_tools_and_techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plan_risk_responses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plan_risk_responses_Inputs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plan_risk_responses_outputs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plan_risk_responses_tools_and_techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Project_teams"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Risk_Analysis_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Risks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#_definitions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#_risk_statements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#acceptance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#action_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#activity_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#activity_realign_performance_project_nwork_project_management_plan_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#agreement_support_stakeholder_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#area_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#area_project_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#areas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#assumption_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#audit_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#avoidance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#base_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bias_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#category_eg_project_phase_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#checklist_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#combination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#communication_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#component"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#conclusions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#conduct_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#context"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#control_risks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#control_risks_Inputs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#control_risks_outputs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#control_risks_tools_and_techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cost_estimates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cost_management_plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cost_management_plan_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#databases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#decision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#definition_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#demand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#distributions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#document_nin_result_risk_analysis_risk_response_planning_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#event_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#expertise_transfer_risk_transference_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#grid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#guidance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#guidelines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#help_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#impact_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#industry_study_risk_attitude_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#influence_time_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#information_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#information_performance_measurement_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#input_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interview_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#level_assign_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#management_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#matrix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nbar_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nimpact_project_help_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#opportunity_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#order_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#organizations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#output_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#performance_information_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plan_risk_management_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#planning_meetings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#policies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#practice_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#probability_impact_evaluation_risk_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#process_delphi_technique_help_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#processes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#project_lessons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#project_team_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#record_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#register"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#requirement_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#resource_management_plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#responses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#responsibility_budget_estimate_fund_need_base_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#review_eliminate_risk_review_risk_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#risk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#risk_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#risk_information_support_decision_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#risk_management_plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#risk_management_plan_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#risk_management_process_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#risk_monitor_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#risk_process_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#risk_process_complexity_level_detail_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#risk_response_plan_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#risk_response_strategy_whereby_project_team_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#risk_response_strategy_whereby_project_team_act_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#risk_responses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#risks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#role_responsibility_risk_analysis_definition_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#roles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#schedule_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#schedule_change_nstrategy_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#schedule_management_plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scope_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#section_work_performance_report_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shapes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sheets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#simulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sponsor_customer_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#state_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#strengths"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#subsidiary_management_plan_baseline_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#technique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#threat_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#threats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#transference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#type_activity_risk_management_plan_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#upside_risk_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#value_analysis_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#variance_analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#variation_project_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#way"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#work_performance_information"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#_affecting_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#_applies_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#_considering_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#_depict_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#_document_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#_hold_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#_include_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#_including_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#_is_a_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#_learned_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#_offset_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#_provides_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#_requiring_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#_scoring_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#_uses_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#_using"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#acquire_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#anticipate_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#approve_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#assessed_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#be_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#benchmarking_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#clarify_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#determine_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#eliminate_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ensure_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#give_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#identify_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#justifying_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nearned_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nmaking_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nordering_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nreduce_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nriskaffected_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ntiming_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#obtain_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#reduce_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#shift_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#take_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#track_identified_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#understand_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#strategy•_"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Activity_Cost_Estimates"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Activity_duration_Estimates"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Analytical_techniques"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Assumptions_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Enterprise_Environmental_Factors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Expert_Judgment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Human_resource_Management_Plan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Information_Gathering_techniques"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Meetings"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Probability_and_Impact_Matrix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Procurement_documents"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Project_Management_Plan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Project_Management_Plan_updates"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Project_charter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Project_documents"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Project_documents_updates"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quality_Management_Plan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quantitative_risk_Analysis_and_Modeling_techniques"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SWot_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Schedule_Management_Plan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scope_Baseline"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stakeholder_register"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Strategies_for_Positive_risks_or_opportunities"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Strategies_for_negative_risks_or_threats"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Variance_and_trend_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Work_Performance_Information"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Work_Performance_data"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Work_Performance_reports"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#change_requests"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#checklist_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#contingent_response_Strategies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cost_Management_Plan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#data_Gathering_and_representation_techniques"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#diagramming_techniques"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#documentation_reviews"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#organizational_Process_Assets"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#organizational_Process_Assets_updates"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#reserve_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#risk_Audits"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#risk_Management_Plan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#risk_Probability_and_Impact_Assessment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#risk_categorization"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#risk_data_Quality_Assessment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#risk_reassessment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#risk_register"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#risk_urgency_Assessment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#technical_Performance_Measurement"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Identify_risks_Inputs"/>
+        <Class IRI="#Identify_risks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Identify_risks_outputs"/>
+        <Class IRI="#Identify_risks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Identify_risks_tools_and_techniques"/>
+        <Class IRI="#Identify_risks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perform_Qualitative_risk_Analysis_Inputs"/>
+        <Class IRI="#Perform_Qualitative_risk_Analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perform_Qualitative_risk_Analysis_outputs"/>
+        <Class IRI="#Perform_Qualitative_risk_Analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perform_Qualitative_risk_Analysis_tools_and_techniques"/>
+        <Class IRI="#Perform_Qualitative_risk_Analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perform_Quantitative_risk_Analysis_Inputs"/>
+        <Class IRI="#Perform_Quantitative_risk_Analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perform_Quantitative_risk_Analysis_outputs"/>
+        <Class IRI="#Perform_Quantitative_risk_Analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perform_Quantitative_risk_Analysis_tools_and_techniques"/>
+        <Class IRI="#Perform_Quantitative_risk_Analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plan_risk_Management_Inputs"/>
+        <Class IRI="#Plan_risk_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plan_risk_Management_outputs"/>
+        <Class IRI="#Plan_risk_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plan_risk_Management_tools_and_techniques"/>
+        <Class IRI="#Plan_risk_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plan_risk_responses_Inputs"/>
+        <Class IRI="#Plan_risk_responses"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plan_risk_responses_outputs"/>
+        <Class IRI="#Plan_risk_responses"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plan_risk_responses_tools_and_techniques"/>
+        <Class IRI="#Plan_risk_responses"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#control_risks_Inputs"/>
+        <Class IRI="#control_risks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#control_risks_outputs"/>
+        <Class IRI="#control_risks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#control_risks_tools_and_techniques"/>
+        <Class IRI="#control_risks"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Identify_risks_Inputs"/>
+        <NamedIndividual IRI="#Activity_Cost_Estimates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identify_risks_Inputs"/>
+        <NamedIndividual IRI="#Activity_duration_Estimates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plan_risk_Management_tools_and_techniques"/>
+        <NamedIndividual IRI="#Analytical_techniques"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identify_risks_tools_and_techniques"/>
+        <NamedIndividual IRI="#Assumptions_Analysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identify_risks_Inputs"/>
+        <NamedIndividual IRI="#Enterprise_Environmental_Factors"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Qualitative_risk_Analysis_Inputs"/>
+        <NamedIndividual IRI="#Enterprise_Environmental_Factors"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Quantitative_risk_Analysis_Inputs"/>
+        <NamedIndividual IRI="#Enterprise_Environmental_Factors"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plan_risk_Management_Inputs"/>
+        <NamedIndividual IRI="#Enterprise_Environmental_Factors"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identify_risks_tools_and_techniques"/>
+        <NamedIndividual IRI="#Expert_Judgment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Qualitative_risk_Analysis_tools_and_techniques"/>
+        <NamedIndividual IRI="#Expert_Judgment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Quantitative_risk_Analysis_tools_and_techniques"/>
+        <NamedIndividual IRI="#Expert_Judgment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plan_risk_Management_tools_and_techniques"/>
+        <NamedIndividual IRI="#Expert_Judgment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plan_risk_responses_tools_and_techniques"/>
+        <NamedIndividual IRI="#Expert_Judgment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identify_risks_Inputs"/>
+        <NamedIndividual IRI="#Human_resource_Management_Plan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identify_risks_tools_and_techniques"/>
+        <NamedIndividual IRI="#Information_Gathering_techniques"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plan_risk_Management_tools_and_techniques"/>
+        <NamedIndividual IRI="#Meetings"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#control_risks_tools_and_techniques"/>
+        <NamedIndividual IRI="#Meetings"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Qualitative_risk_Analysis_tools_and_techniques"/>
+        <NamedIndividual IRI="#Probability_and_Impact_Matrix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identify_risks_Inputs"/>
+        <NamedIndividual IRI="#Procurement_documents"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plan_risk_Management_Inputs"/>
+        <NamedIndividual IRI="#Project_Management_Plan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#control_risks_Inputs"/>
+        <NamedIndividual IRI="#Project_Management_Plan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plan_risk_responses_outputs"/>
+        <NamedIndividual IRI="#Project_Management_Plan_updates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#control_risks_outputs"/>
+        <NamedIndividual IRI="#Project_Management_Plan_updates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plan_risk_Management_Inputs"/>
+        <NamedIndividual IRI="#Project_charter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identify_risks_Inputs"/>
+        <NamedIndividual IRI="#Project_documents"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Qualitative_risk_Analysis_outputs"/>
+        <NamedIndividual IRI="#Project_documents_updates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Quantitative_risk_Analysis_outputs"/>
+        <NamedIndividual IRI="#Project_documents_updates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plan_risk_responses_outputs"/>
+        <NamedIndividual IRI="#Project_documents_updates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#control_risks_outputs"/>
+        <NamedIndividual IRI="#Project_documents_updates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identify_risks_Inputs"/>
+        <NamedIndividual IRI="#Quality_Management_Plan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Quantitative_risk_Analysis_tools_and_techniques"/>
+        <NamedIndividual IRI="#Quantitative_risk_Analysis_and_Modeling_techniques"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identify_risks_tools_and_techniques"/>
+        <NamedIndividual IRI="#SWot_Analysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identify_risks_Inputs"/>
+        <NamedIndividual IRI="#Schedule_Management_Plan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Quantitative_risk_Analysis_Inputs"/>
+        <NamedIndividual IRI="#Schedule_Management_Plan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identify_risks_Inputs"/>
+        <NamedIndividual IRI="#Scope_Baseline"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Qualitative_risk_Analysis_Inputs"/>
+        <NamedIndividual IRI="#Scope_Baseline"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identify_risks_Inputs"/>
+        <NamedIndividual IRI="#Stakeholder_register"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plan_risk_Management_Inputs"/>
+        <NamedIndividual IRI="#Stakeholder_register"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plan_risk_responses_tools_and_techniques"/>
+        <NamedIndividual IRI="#Strategies_for_Positive_risks_or_opportunities"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plan_risk_responses_tools_and_techniques"/>
+        <NamedIndividual IRI="#Strategies_for_negative_risks_or_threats"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#control_risks_tools_and_techniques"/>
+        <NamedIndividual IRI="#Variance_and_trend_Analysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#control_risks_outputs"/>
+        <NamedIndividual IRI="#Work_Performance_Information"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#control_risks_Inputs"/>
+        <NamedIndividual IRI="#Work_Performance_data"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#control_risks_Inputs"/>
+        <NamedIndividual IRI="#Work_Performance_reports"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#control_risks_outputs"/>
+        <NamedIndividual IRI="#change_requests"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identify_risks_tools_and_techniques"/>
+        <NamedIndividual IRI="#checklist_Analysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plan_risk_responses_tools_and_techniques"/>
+        <NamedIndividual IRI="#contingent_response_Strategies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identify_risks_Inputs"/>
+        <NamedIndividual IRI="#cost_Management_Plan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Quantitative_risk_Analysis_Inputs"/>
+        <NamedIndividual IRI="#cost_Management_Plan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Quantitative_risk_Analysis_tools_and_techniques"/>
+        <NamedIndividual IRI="#data_Gathering_and_representation_techniques"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identify_risks_tools_and_techniques"/>
+        <NamedIndividual IRI="#diagramming_techniques"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identify_risks_tools_and_techniques"/>
+        <NamedIndividual IRI="#documentation_reviews"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identify_risks_Inputs"/>
+        <NamedIndividual IRI="#organizational_Process_Assets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Qualitative_risk_Analysis_Inputs"/>
+        <NamedIndividual IRI="#organizational_Process_Assets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Quantitative_risk_Analysis_Inputs"/>
+        <NamedIndividual IRI="#organizational_Process_Assets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plan_risk_Management_Inputs"/>
+        <NamedIndividual IRI="#organizational_Process_Assets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#control_risks_outputs"/>
+        <NamedIndividual IRI="#organizational_Process_Assets_updates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#control_risks_tools_and_techniques"/>
+        <NamedIndividual IRI="#reserve_Analysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#control_risks_tools_and_techniques"/>
+        <NamedIndividual IRI="#risk_Audits"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identify_risks_Inputs"/>
+        <NamedIndividual IRI="#risk_Management_Plan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Qualitative_risk_Analysis_Inputs"/>
+        <NamedIndividual IRI="#risk_Management_Plan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Quantitative_risk_Analysis_Inputs"/>
+        <NamedIndividual IRI="#risk_Management_Plan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plan_risk_Management_outputs"/>
+        <NamedIndividual IRI="#risk_Management_Plan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plan_risk_responses_Inputs"/>
+        <NamedIndividual IRI="#risk_Management_Plan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Qualitative_risk_Analysis_tools_and_techniques"/>
+        <NamedIndividual IRI="#risk_Probability_and_Impact_Assessment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Qualitative_risk_Analysis_tools_and_techniques"/>
+        <NamedIndividual IRI="#risk_categorization"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Qualitative_risk_Analysis_tools_and_techniques"/>
+        <NamedIndividual IRI="#risk_data_Quality_Assessment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#control_risks_tools_and_techniques"/>
+        <NamedIndividual IRI="#risk_reassessment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identify_risks_outputs"/>
+        <NamedIndividual IRI="#risk_register"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Qualitative_risk_Analysis_Inputs"/>
+        <NamedIndividual IRI="#risk_register"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Quantitative_risk_Analysis_Inputs"/>
+        <NamedIndividual IRI="#risk_register"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plan_risk_responses_Inputs"/>
+        <NamedIndividual IRI="#risk_register"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#control_risks_Inputs"/>
+        <NamedIndividual IRI="#risk_register"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perform_Qualitative_risk_Analysis_tools_and_techniques"/>
+        <NamedIndividual IRI="#risk_urgency_Assessment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#control_risks_tools_and_techniques"/>
+        <NamedIndividual IRI="#technical_Performance_Measurement"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_affecting_"/>
+        <Class IRI="#conclusions"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_applies_"/>
+        <Class IRI="#process"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_considering_"/>
+        <Class IRI="#New_Plant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_considering_"/>
+        <Class IRI="#Plant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_depict_"/>
+        <Class IRI="#distributions"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_document_"/>
+        <Class IRI="#organizations"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_hold_"/>
+        <Class IRI="#Project_teams"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_include_"/>
+        <Class IRI="#Risk_Analysis_process"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_include_"/>
+        <Class IRI="#Risks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_include_"/>
+        <Class IRI="#process"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_include_"/>
+        <Class IRI="#risk_management_plan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_including_"/>
+        <Class IRI="#areas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_including_"/>
+        <Class IRI="#work_performance_information"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_is_a_"/>
+        <Class IRI="#acceptance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_is_a_"/>
+        <Class IRI="#analysis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_is_a_"/>
+        <Class IRI="#avoidance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_is_a_"/>
+        <Class IRI="#context"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_is_a_"/>
+        <Class IRI="#matrix"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_is_a_"/>
+        <Class IRI="#plan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_is_a_"/>
+        <Class IRI="#register"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_is_a_"/>
+        <Class IRI="#technique"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_is_a_"/>
+        <Class IRI="#transference"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_learned_"/>
+        <Class IRI="#project_lessons"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_offset_"/>
+        <Class IRI="#strengths"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_provides_"/>
+        <Class IRI="#cost_management_plan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_provides_"/>
+        <Class IRI="#resource_management_plan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_provides_"/>
+        <Class IRI="#risk_management_plan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_provides_"/>
+        <Class IRI="#schedule_management_plan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_requiring_"/>
+        <Class IRI="#risks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_scoring_"/>
+        <Class IRI="#risk"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_uses_"/>
+        <Class IRI="#simulation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_using"/>
+        <Class IRI="#matrix"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#_using"/>
+        <Class IRI="#risks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#acquire_"/>
+        <Class IRI="#communication_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#anticipate_"/>
+        <Class IRI="#project_team_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#approve_"/>
+        <Class IRI="#plan_risk_management_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#assessed_"/>
+        <Class IRI="#base_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#be_"/>
+        <Class IRI="#action_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#be_"/>
+        <Class IRI="#audit_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#be_"/>
+        <Class IRI="#document_nin_result_risk_analysis_risk_response_planning_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#be_"/>
+        <Class IRI="#management_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#be_"/>
+        <Class IRI="#nbar_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#be_"/>
+        <Class IRI="#sponsor_customer_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#benchmarking_"/>
+        <Class IRI="#checklist_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#clarify_"/>
+        <Class IRI="#type_activity_risk_management_plan_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#determine_"/>
+        <Class IRI="#category_eg_project_phase_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#eliminate_"/>
+        <Class IRI="#risk_response_strategy_whereby_project_team_act_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ensure_"/>
+        <Class IRI="#agreement_support_stakeholder_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ensure_"/>
+        <Class IRI="#upside_risk_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#give_"/>
+        <Class IRI="#definition_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#identify_"/>
+        <Class IRI="#help_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#identify_"/>
+        <Class IRI="#input_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#identify_"/>
+        <Class IRI="#output_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#justifying_"/>
+        <Class IRI="#assumption_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#nearned_"/>
+        <Class IRI="#performance_information_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#nmaking_"/>
+        <Class IRI="#risk_information_support_decision_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#nordering_"/>
+        <Class IRI="#influence_time_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#nreduce_"/>
+        <Class IRI="#process_delphi_technique_help_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#nriskaffected_"/>
+        <Class IRI="#state_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ntiming_"/>
+        <Class IRI="#role_responsibility_risk_analysis_definition_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#obtain_"/>
+        <Class IRI="#requirement_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#reduce_"/>
+        <Class IRI="#schedule_change_nstrategy_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#shift_"/>
+        <Class IRI="#risk_response_strategy_whereby_project_team_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#take_"/>
+        <Class IRI="#section_work_performance_report_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#track_identified_"/>
+        <Class IRI="#risk_response_plan_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#understand_"/>
+        <Class IRI="#nimpact_project_help_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#strategy•_"/>
+        <Class IRI="#schedule_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_affecting_"/>
+        <Class IRI="#risk_responses"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_applies_"/>
+        <Class IRI="#techniques"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_considering_"/>
+        <Class IRI="#demand"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_depict_"/>
+        <Class IRI="#shapes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_document_"/>
+        <Class IRI="#policies"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_hold_"/>
+        <Class IRI="#planning_meetings"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_include_"/>
+        <Class IRI="#information"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_include_"/>
+        <Class IRI="#roles"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_include_"/>
+        <Class IRI="#threats"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_including_"/>
+        <Class IRI="#scope"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_including_"/>
+        <Class IRI="#variance_analysis"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_is_a_"/>
+        <Class IRI="#combination"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_is_a_"/>
+        <Class IRI="#component"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_is_a_"/>
+        <Class IRI="#decision"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_is_a_"/>
+        <Class IRI="#document"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_is_a_"/>
+        <Class IRI="#grid"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_is_a_"/>
+        <Class IRI="#risk"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_is_a_"/>
+        <Class IRI="#way"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_learned_"/>
+        <Class IRI="#databases"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_offset_"/>
+        <Class IRI="#threats"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_provides_"/>
+        <Class IRI="#guidance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_provides_"/>
+        <Class IRI="#guidelines"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_provides_"/>
+        <Class IRI="#processes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_requiring_"/>
+        <Class IRI="#responses"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_scoring_"/>
+        <Class IRI="#sheets"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_uses_"/>
+        <Class IRI="#cost_estimates"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_using"/>
+        <Class IRI="#_definitions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#_using"/>
+        <Class IRI="#_risk_statements"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#acquire_"/>
+        <Class IRI="#expertise_transfer_risk_transference_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#anticipate_"/>
+        <Class IRI="#event_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#approve_"/>
+        <Class IRI="#subsidiary_management_plan_baseline_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#assessed_"/>
+        <Class IRI="#probability_impact_evaluation_risk_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#be_"/>
+        <Class IRI="#activity_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#be_"/>
+        <Class IRI="#activity_realign_performance_project_nwork_project_management_plan_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#be_"/>
+        <Class IRI="#conduct_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#be_"/>
+        <Class IRI="#interview_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#be_"/>
+        <Class IRI="#order_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#be_"/>
+        <Class IRI="#practice_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#be_"/>
+        <Class IRI="#record_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#benchmarking_"/>
+        <Class IRI="#industry_study_risk_attitude_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#clarify_"/>
+        <Class IRI="#responsibility_budget_estimate_fund_need_base_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#determine_"/>
+        <Class IRI="#area_project_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#eliminate_"/>
+        <Class IRI="#threat_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ensure_"/>
+        <Class IRI="#opportunity_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ensure_"/>
+        <Class IRI="#risk_management_process_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#give_"/>
+        <Class IRI="#risk_management_plan_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#identify_"/>
+        <Class IRI="#risk_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#identify_"/>
+        <Class IRI="#risk_process_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#identify_"/>
+        <Class IRI="#risk_process_complexity_level_detail_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#justifying_"/>
+        <Class IRI="#level_assign_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nearned_"/>
+        <Class IRI="#value_analysis_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nmaking_"/>
+        <Class IRI="#order_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nordering_"/>
+        <Class IRI="#event_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nreduce_"/>
+        <Class IRI="#bias_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nriskaffected_"/>
+        <Class IRI="#area_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ntiming_"/>
+        <Class IRI="#review_eliminate_risk_review_risk_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#obtain_"/>
+        <Class IRI="#information_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#reduce_"/>
+        <Class IRI="#scope_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#shift_"/>
+        <Class IRI="#impact_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#take_"/>
+        <Class IRI="#information_performance_measurement_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#track_identified_"/>
+        <Class IRI="#risk_monitor_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#understand_"/>
+        <Class IRI="#variation_project_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#strategy•_"/>
+        <Class IRI="#cost_management_plan_"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Activity_Cost_Estimates</IRI>
+        <Literal>Described in Section 7.2.3.1. Activity cost estimate reviews are useful in identifying risks as they provide a quantitative assessment of the likely cost to complete scheduled activities and ideally are expressed as a range, with the width of the range indicating the degree(s) of risk. The review may result in projections indicating the estimate is either sufficient or insufficient to complete the activity (i.e., pose a risk to the project).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Activity_duration_Estimates</IRI>
+        <Literal> Described in Section 6.5.3.1. Activity duration estimate reviews are useful in identifying risks related to the time \nallowances for the activities or project as a whole, again with the width of the range of such estimates indicating \nthe relative degree(s) of risk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Analytical_techniques</IRI>
+        <Literal> Analytical techniques are used to understand and define the overall risk management context of the project. \nRisk management context is a combination of stakeholder risk attitudes and the strategic risk exposure of a given \nproject based on the overall project context. For example, a stakeholder risk profile analysis may be performed to \ngrade and qualify the project stakeholder risk appetite and tolerance. Other techniques, such as the use of strategic \nrisk scoring sheets, are used to provide a high-level assessment of the risk exposure of the project based on the \noverall project context. Depending on these assessments, the project team can allocate appropriate resources and \nfocus on the risk management activities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Assumptions_Analysis</IRI>
+        <Literal> Every project and its plan is conceived and developed based on a set of hypotheses, scenarios, or assumptions. \nAssumptions analysis explores the validity of assumptions as they apply to the project. It identifies risks to the \nproject from inaccuracy, instability, inconsistency, or incompleteness of assumptions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Enterprise_Environmental_Factors</IRI>
+        <Literal> Described  in  Section  2.1.5.  Enterprise  environmental  factors  may  provide  insight  and  context  to  the  risk \n assessment, such as: Industry studies of similar projects by risk specialists, and Risk databases that may be available from industry or proprietary sources</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Enterprise_Environmental_Factors</IRI>
+        <Literal> Described  in  Section  2.1.5.  Enterprise  environmental  factors  that  can  influence  the  Identify  Risks  process \n include, but are not limited to: Published information, including commercial databases, Academic studies, Published checklists, Benchmarking, Industry studies, and Risk attitudes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Enterprise_Environmental_Factors</IRI>
+        <Literal> Described in Section 2.1.5. Enterprise environmental factors may provide insight and context to the risk analysis,  Industry studies of similar projects by risk specialists, and Risk databases that may be available from industry or proprietary sources</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Enterprise_Environmental_Factors</IRI>
+        <Literal> Described in Section 2.1.5. The enterprise environmental factors that can influence the Plan Risk Management \nprocess include, but are not limited to, risk attitudes, thresholds, and tolerances that describe the degree of risk \nthat an organization will withstand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Expert_Judgment</IRI>
+        <Literal> Expert judgment (ideally using experts with relevant, recent experience) is required to identify potential cost \n and schedule impacts, to evaluate probability, and to define inputs such as probability distributions into the tools.\n Expert judgment also comes into play in the interpretation of the data. Experts should be able to identify the \nweaknesses of the tools as well as their strengths. Experts may determine when a specific tool may or may not be \nmore appropriate given the organization’s capabilities and culture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Expert_Judgment</IRI>
+        <Literal> Expert judgment is input from knowledgeable parties pertaining to the actions to be taken on a specific and \ndefined  risk.  Expertise  may  be  provided  by  any  group  or  person  with  specialized  education,  knowledge,  skill, \nexperience, or training in establishing risk responses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Expert_Judgment</IRI>
+        <Literal> Expert judgment is required to assess the probability and impact of each risk to determine its location in \nthe matrix shown in Figure 11-10. Experts generally are those having experience with similar, recent projects. \nGathering expert judgment is often accomplished with the use of risk facilitation workshops or interviews. The \nexperts’ bias should be taken into account in this process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Expert_Judgment</IRI>
+        <Literal> Risks may be identified directly by experts with relevant experience with similar projects or business areas. \nSuch experts should be identified by the project manager and invited to consider all aspects of the project and \nsuggest possible risks based on their previous experience and areas of expertise. The experts’ bias should be taken \ninto account in this process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Expert_Judgment</IRI>
+        <Literal>To ensure a comprehensive establishment of the risk management plan, judgment, and expertise should be considered from groups or individuals with specialized training or knowledge on the subject area, such as: Senior management, Project stakeholders, Project managers who have worked on projects in the same area (directly or through lessons learned), Subject matter experts (SMEs) in business or project area, Industry groups and consultants, and Professional and technical associations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Human_resource_Management_Plan</IRI>
+        <Literal> Described in Section 9.1.3.1. The human resource management plan provides guidance on how project human \nresources should be defined, staffed, managed, and eventually released. It can also contain roles and responsibilities, \nproject organization charts, and the staffing management plan, which form a key input to identify risk process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Identify_risks</IRI>
+        <Literal> Identify  Risks  is  the  process  of  determining  which  risks  may  affect  the  project  and  documenting  their \ncharacteristics. The key benefit of this process is the documentation of existing risks and the knowledge and ability \nit provides to the project team to anticipate events. The inputs, tools and techniques, and outputs of this process \nare depicted in Figure 11-5. Figure 11-6 depicts the data flow diagram of the process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Identify_risks_Inputs</IRI>
+        <Literal> </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Identify_risks_outputs</IRI>
+        <Literal> </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Identify_risks_tools_and_techniques</IRI>
+        <Literal> </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Information_Gathering_techniques</IRI>
+        <Literal>Examples of information gathering techniques used in identifying risks can include:  Brainstorming. The goal of brainstorming is to obtain a comprehensive list of project risks. The project \nteam usually performs brainstorming, often with a multidisciplinary set of experts who are not part of the \nteam. Ideas about project risk are generated under the leadership of a facilitator, either in a traditional \nfree-form brainstorm session or structured mass interviewing techniques. Categories of risk, such as in a \nrisk breakdown structure, can be used as a framework. Risks are then identified and categorized by type \nof risk and their definitions are refined.  delphi technique. The Delphi technique is a way to reach a consensus of experts. Project risk experts \nparticipate in this technique anonymously. A facilitator uses a questionnaire to solicit ideas about the \nimportant  project  risks.  The  responses  are  summarized  and  are  then  recirculated  to  the  experts  for \nfurther comment. Consensus may be reached in a few rounds of this process. The Delphi technique helps \nreduce bias in the data and keeps any one person from having undue influence on the outcome. Interviewing. Interviewing experienced project participants, stakeholders, and subject matter experts helps to identify risks. Root cause analysis. Root-cause analysis is a specific technique used to identify a problem, discover the underlying causes that lead to it, and develop preventive action.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Meetings</IRI>
+        <Literal> Project risk management should be an agenda item at periodic status meetings. The amount of time required \nfor that item will vary, depending upon the risks that have been identified, their priority, and difficulty of response. \nThe more often risk management is practiced, the easier it becomes. Frequent discussions about risk make it more \nlikely that people will identify risks and opportunities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Meetings</IRI>
+        <Literal> Project teams hold planning meetings to develop the risk management plan. Attendees at these meetings may \ninclude the project manager, selected project team members and stakeholders, anyone in the organization with \nresponsibility to manage the risk planning and execution activities, and others, as needed.\n High-level plans for conducting the risk management activities are defined in these meetings. Risk management \ncost  elements  and  schedule  activities  should  be  developed  for  inclusion  in  the  project  budget  and  schedule, \nrespectively. Risk contingency reserve application approaches may be established or reviewed. Risk management \nresponsibilities should be assigned. General organizational templates for risk categories and definitions of terms \nsuch as levels of risk, probability by type of risk, impact by type of objectives, and the probability and impact matrix \nwill be tailored to the specific project. If templates for other steps in the process do not exist, they may be generated \nin these meetings. The outputs of these activities are summarized in the risk management plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Perform_Qualitative_risk_Analysis</IRI>
+        <Literal> Perform Qualitative Risk Analysis is the process of prioritizing risks for further analysis or action by assessing \nand combining their probability of occurrence and impact. The key benefit of this process is that it enables project \nmanagers to reduce the level of uncertainty and to focus on high-priority risks. The inputs, tools and techniques, \nand outputs of this process are depicted in Figure 11-8. Figure 11-9 depicts the data flow diagram of the process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Perform_Qualitative_risk_Analysis_Inputs</IRI>
+        <Literal> </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Perform_Qualitative_risk_Analysis_outputs</IRI>
+        <Literal> </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Perform_Qualitative_risk_Analysis_tools_and_techniques</IRI>
+        <Literal> </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Perform_Quantitative_risk_Analysis</IRI>
+        <Literal> Perform Quantitative Risk Analysis is the process of numerically analyzing the effect of identified risks on overall \nproject objectives. The key benefit of this process is that it produces quantitative risk information to support decision \nmaking in order to reduce project uncertainty. The inputs, tools and techniques, and outputs of this process are \ndepicted in Figure 11-11. Figure 11-12 depicts the data flow diagram of the process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Perform_Quantitative_risk_Analysis_Inputs</IRI>
+        <Literal>  </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Perform_Quantitative_risk_Analysis_outputs</IRI>
+        <Literal> </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Perform_Quantitative_risk_Analysis_tools_and_techniques</IRI>
+        <Literal> </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Plan_risk_Management</IRI>
+        <Literal>Plan Risk Management is the process of defining how to conduct risk management activities for a project. The key benefit of this process is it ensures that the degree, type, and visibility of risk management are commensurate with both the risks and the importance of the project to the organization. The risk management plan is vital to communicate with and obtain agreement and support from all stakeholders to ensure the risk management process is supported and performed effectively over the project life cycle. The inputs, tools and techniques, and outputs of this process are depicted in Figure 11-2. Figure 11-3 depicts the data flow diagram of the process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Plan_risk_Management_Inputs</IRI>
+        <Literal> </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Plan_risk_Management_tools_and_techniques</IRI>
+        <Literal> </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Plan_risk_responses</IRI>
+        <Literal> Plan Risk Responses is the process of developing options and actions to enhance opportunities and to reduce \nthreats to project objectives. The key benefit of this process is that it addresses the risks by their priority, inserting \nresources and activities into the budget, schedule and project management plan as needed. The inputs, tools and \ntechniques, and outputs of this process are depicted in Figure 11-18. Figure 11-19 depicts the data flow diagram \nof the process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Plan_risk_responses_Inputs</IRI>
+        <Literal> </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Plan_risk_responses_outputs</IRI>
+        <Literal> </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Plan_risk_responses_tools_and_techniques</IRI>
+        <Literal> Several risk response strategies are available. The strategy or mix of strategies most likely to be effective \nshould be selected for each risk. Risk analysis tools, such as decision tree analysis (Section 11.4.2.2), can be \nused  to  choose  the  most  appropriate  responses.  Specific  actions  are  developed  to  implement  that  strategy, \nincluding primary and backup strategies, as necessary. A fallback plan can be developed for implementation \nif the selected strategy turns out not to be fully effective or if an accepted risk occurs. Secondary risks should \nalso  be  reviewed.  Secondary  risks  are  risks  that  arise  as  a  direct  result  of  implementing  a  risk  response. A \ncontingency reserve is often allocated for time or cost. If developed, it may include identification of the conditions \nthat trigger its use</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Probability_and_Impact_Matrix</IRI>
+        <Literal>Risks can be prioritized for further quantitative analysis and planning risk responses based on their risk rating. \nRatings are assigned to risks based on their assessed probability and impact. Evaluation of each risk’s importance \nand priority for attention is typically conducted using a look-up table or a probability and impact matrix. Such a \nmatrix  specifies  combinations  of  probability  and  impact  that  lead  to  rating  the  risks  as  low,  moderate,  or  high \npriority. Descriptive terms or numeric values can be used depending on organizational preference.\n Each risk is rated on its probability of occurrence and impact on an objective if it does occur. The organization should determine which combinations of probability and impact result in a classification of high risk, moderate risk, and low risk. In a black-and-white matrix, these conditions are denoted using different shades of gray. Specifically \nin Figure 11-10, the dark gray area (with the largest numbers) represents high risk: the medium gray area (with \nthe smallest numbers) represents low risk, and the light gray area (with in-between numbers) represents moderate \nrisk. Usually, these risk-rating rules are specified by the organization in advance of the project and included in organizational process assets. Risk rating rules can be tailored in the Plan Risk Management process to the specific project As illustrated in Figure 11-10, an organization can rate a risk separately for each objective (e.g., cost, time, and scope). In addition, it may develop ways to determine one overall rating for each risk. Finally, opportunities and threats are handled in the same matrix using definitions of the different levels of impact that are appropriate for each. The risk score helps guide risk responses. For example, risks that have a negative impact on objectives, otherwise known as threats if they occur, and that are in the high-risk (dark gray) zone of the matrix, may require priority action and aggressive response strategies. Threats found in the low-risk (medium gray) zone may not require proactive management action beyond being placed in the risk register as part of the watch list or adding a contingency reserve. Similarly for opportunities, those in the high-risk (dark gray) zone, which may be obtained most easily and offer the greatest benefit, should be targeted first. Opportunities in the low-risk (medium gray) zone should be monitored.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Procurement_documents</IRI>
+        <Literal> Defined  in  Section  12.1.3.3.  If  the  project  requires  external  procurement  of  resources,  procurement \ndocuments  become  a  key  input  to  the  Identify  Risks  process. The  complexity  and  the  level  of  detail  of  the \nprocurement documents should be consistent with the value of, and risks associated with, planned procurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Project_Management_Plan</IRI>
+        <Literal> Described in Section 4.2.3.1. The project management plan, which includes the risk management plan, provides guidance for risk monitoring and controlling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Project_Management_Plan</IRI>
+        <Literal> In planning risk management, all approved subsidiary management plans and baselines should be taken into \nconsideration in order to make the risk management plan consistent with them. The risk management plan is also \na component of the project management plan. The project management plan provides baseline or current state of \nrisk-affected areas including scope, schedule, and cost</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Project_Management_Plan_updates</IRI>
+        <Literal> Elements of the project management plan that may be updated as a result of carrying out this process include, \n but are not limited to• Schedule management plan. The schedule management plan is updated to reflect changes in processand practice driven by the risk responses. This may include changes in tolerance or behavior related toresource loading and leveling, as well as updates to the schedule strategy.• Cost management plan. The cost management plan is updated to reflect changes in process andpractice driven by the risk responses. This may include changes in tolerance or behavior related tocost accounting, tracking, and reports, as well as updates to the budget strategy and how contingencyreserves are consumed.• Quality management plan. The quality management plan is updated to reflect changes in processand practice driven by the risk responses. This may include changes in tolerance or behavior related torequirements, quality assurance, or quality control, as well as updates to the requirements documentation.• Procurement management plan. The procurement management plan may be updated to reflectchanges in strategy, such as alterations in the make-or-buy decision or contract type(s) driven by the riskresponses.• Human resource management plan. The staffing management plan, part of the human resourcemanagement plan, is updated to reflect changes in project organizational structure and resourceapplications driven by the risk responses. This may include changes in tolerance or behavior related tostaff allocation, as well as updates to the resource loading.• Scope baseline. Because of new, modified or omitted work generated by the risk responses, the scopebaseline may be updated to reflect those changes.• Schedule baseline. Because of new work (or omitted work) generated by the risk responses, the schedulebaseline may be updated to reflect those changes.• Cost baseline. Because of new work (or omitted work) generated by the risk responses, the cost baseline may be updated to reflect those changes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Project_Management_Plan_updates</IRI>
+        <Literal> If the approved change requests have an effect on the risk management processes, the corresponding component \ndocuments of the project management plan are revised and reissued to reflect the approved changes. The elements \nof the project management plan that may be updated are the same as those in the Plan Risk Responses process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Project_charter</IRI>
+        <Literal> Described in Section 4.1.3.1. The project charter can provide various inputs such as high-level risks, high-level \n project descriptions, and high-level requirements</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Project_documents</IRI>
+        <Literal> Project documents provide the project team with information about decisions that help better identify project \nrisks. Project documents improve cross-team and stakeholder communications and include, but are not limited to: Project charter, Project schedule, Schedule network diagrams, Issue log, Quality checklist, and Other information proven to be valuable in identifying risks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Project_documents_updates</IRI>
+        <Literal> In the Plan Risk Responses process, several project documents are updated as needed. For example, whenappropriate risk responses are chosen and agreed upon, they are included in the risk register. The risk register should be written to a level of detail that corresponds with the priority ranking and the planned response. Often, the high and moderate risks are addressed in detail. Risks judged to be of low priority are included in a watch list for periodic monitoring. Updates to the risk register can include, but are not limited to:• Risk owners and assigned responsibilities;• Agreed-upon response strategies;• Specific actions to implement the chosen response strategy;• Trigger conditions, symptoms, and warning signs of a risk occurrence;• Budget and schedule activities required to implement the chosen responses;• Contingency plans and triggers that call for their execution;• Fallback plans for use as a reaction to a risk that has occurred and the primary response proves to beinadequate;• Residual risks that are expected to remain after planned responses have been taken, as well as those thathave been deliberately accepted;• Secondary risks that arise as a direct outcome of implementing a risk response; and• Contingency reserves that are calculated based on the quantitative risk analysis of the project and theorganization’s risk thresholds.Other project documents updated could include:• Assumptions log updates. As new information becomes available through the application of riskresponses, assumptions could change. The assumptions log needs to be revisited to accommodate thisnew information.• Technical documentation updates. As new information becomes available through the applicationof risk responses, technical approaches and physical deliverables may change. Any supportingdocumentation needs to be revisited to accommodate this new information.• Change requests. Planning for possible risk responses can often result in recommendations for changes to the resources, activities, cost estimates, and other items identified during other planning processes.When such recommendations are identified, change requests are generated and processed through the Perform Integrated Change Control process. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Project_documents_updates</IRI>
+        <Literal> Project documents are updated with information resulting from quantitative risk analysis. For example, risk register updates could include:\n Project  documents  are  updated  with  information  resulting  from  quantitative  risk  analysis.  For  example,  risk   Probabilistic  analysis  of  the  project.  Estimates  are  made  of  potential  project  schedule  and  cost \noutcomes  listing  the  possible  completion  dates  and  costs  with  their  associated  confidence  levels. \nThis  output,  often  expressed  as  a  cumulative  frequency  distribution,  is  used  with  stakeholder  risk \ntolerances  to  permit  quantification  of  the  cost  and  time  contingency  reserves.  Such  contingency \nreserves are needed to bring the risk of overrunning stated project objectives to a level acceptable to \nthe organization.  Probability of achieving cost and time objectives. With the risks facing the project, the probability \nof achieving project objectives under the current plan can be estimated using quantitative risk analysis \nresults. For instance, in Figure 11-17, the likelihood of achieving the cost estimate of US$41 million is \nabout 12%.  Prioritized list of quantified risks. This list includes those risks that pose the greatest threat or present \nthe greatest opportunity to the project. These include the risks that may have the greatest effect on cost \ncontingency and those that are most likely to influence the critical path. These risks may be evaluated, in \nsome cases, through a tornado diagram generated as a result of the simulation analysis.  trends in quantitative risk analysis results. As the analysis is repeated, a trend may become apparent \nthat leads to conclusions affecting risk responses. Organizational historical information on project schedule, \ncost, quality, and performance should reflect new insights gained through the Perform Quantitative Risk \nAnalysis process. Such history may take the form of a quantitative risk analysis report. This report may \nbe separate from, or linked to, the risk register</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Project_documents_updates</IRI>
+        <Literal> Project documents that may be updated as a result of the Control Risk process include, but are not limited to the \n risk register. Risk register updates may include:  outcomes  of  risk  reassessments,  risk  audits,  and  periodic  risk  reviews.  These  outcomes  may \ninclude identification of new risks, updates to probability, impact, priority, response plans, ownership, and \nother elements of the risk register. Outcomes can also include closing risks that are no longer applicable \nand releasing their associated reserves.  Actual outcomes of the project’s risks and of the risk responses. This information can help project \n managers to plan for risk throughout their organizations, as well as on future projects.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Project_documents_updates</IRI>
+        <Literal>Project documents that may be updated include, but are not limited to: Risk register updates. As new information becomes available through the qualitative risk assessment, the risk register is updated. Updates to the risk register may include assessments of probability and impacts for each risk, risk ranking or scores, risk urgency information or risk categorization, and a watch list for low probability risks or risks requiring further analysis. Assumptions log updates. As new information becomes available through the qualitative risk assessment, assumptions could change. The assumptions log needs to be revisited to accommodate this new information. Assumptions may be incorporated into the project scope statement or in a separate assumptions log.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Quality_Management_Plan</IRI>
+        <Literal>Described in Section 8.1.3.1. The quality management plan provides a baseline of quality measures and metrics
+for use in identifying risks.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Quantitative_risk_Analysis_and_Modeling_techniques</IRI>
+        <Literal>Commonly used techniques use both event-oriented and project-oriented analysis approaches, including:  Sensitivity  analysis.  Sensitivity  analysis  helps  to  determine  which  risks  have  the  most  potential \nimpact on the project. It helps to understand how the variations in project’s objectives correlate with \nvariations  in  different  uncertainties.  Conversely,  it  examines  the  extent  to  which  the  uncertainty  of \neach project element affects the objective being studied when all other uncertain elements are held at \ntheir baseline values. One typical display of sensitivity analysis is the tornado diagram (Figure 11-15), \nwhich is useful for comparing relative importance and impact of variables that have a high degree of \nuncertainty to those that are more stable. The Tornado diagram is also helpful in analyzing risk-taking \nscenarios enabled on specific risks whose quantitative analysis highlights possible benefits greater \nthan corresponding identified negative impacts. A tornado diagram is a special type of bar chart used \nin sensitivity analysis for comparing the relative importance of the variables. In a tornado diagram, \nthe Y-axis  contains  each  type  of  uncertainty  at  base  values,  and  the  X-axis  contains  the  spread  or \ncorrelation of the uncertainty to the studied output. In this figure, each uncertainty contains a horizontal \nbar and is ordered vertically to show uncertainties with a decreasing spread from the base values.
+Expected monetary value analysis. Expected monetary value (EMV) analysis is a statistical concept that calculates the average outcome when the future includes scenarios that may or may not happen (i.e., analysis under uncertainty). The EMV of opportunities are generally expressed as positive values, while those of threats are expressed as negative values. EMV requires a risk-neutral assumption— neither risk averse nor risk seeking. EMV for a project is calculated by multiplying the value of each possible outcome by its probability of occurrence and adding the products together. A common use of this type of analysis is a decision tree analysis (Figure 11-16).
+Modeling and simulation. A project simulation uses a model that translates the specified detailed uncertainties of the project into their potential impact on project objectives. Simulations are typically performed using the Monte Carlo technique. In a simulation, the project model is computed many times (iterated), with the input values (e.g., cost estimates or activity durations) chosen at random for each iteration from the probability distributions of these variables. A histogram (e.g., total cost or completion date) is calculated from the iterations. For a cost risk analysis, a simulation uses cost estimates. For a schedule risk analysis, the schedule network diagram and duration estimates are used. The output from a cost risk simulation using the three-element model and risk ranges is shown in Figure 11-17. It illustrates the respective probability of achieving specific cost targets. Similar curves can be developed for other project objectives.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#SWot_Analysis</IRI>
+        <Literal> This technique examines the project from each of the strengths, weaknesses, opportunities, and threats (SWOT) \nperspectives to increase the breadth of identified risks by including internally generated risks. The technique starts \nwith identification of strengths and weaknesses of the organization, focusing on either the project, organization, \nor the business area in general. SWOT analysis then identifies any opportunities for the project that arise from \norganizational  strengths,  and  any  threats  arising  from  organizational  weaknesses. The  analysis  also  examines \nthe degree to which organizational strengths offset threats, as well as identifying opportunities that may serve to \novercome weaknesses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Schedule_Management_Plan</IRI>
+        <Literal>Described  in  Section  6.1.3.1.  The  schedule  management  plan  provides  insight  to  project  time/schedule \n objectives and expectations which may be impacted by risks (known and unknown).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Schedule_Management_Plan</IRI>
+        <Literal>Described in Section 6.1.3.1. The schedule management plan provides guidelines on establishing and managing risk reserves.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Scope_Baseline</IRI>
+        <Literal> Described  in  Section  5.4.3.1.  Project  assumptions  are  found  in  the  project  scope  statement.  Uncertainty  in \n project assumptions should be evaluated as potential causes of project risk.\n The WBS is a critical input to identifying risks as it facilitates an understanding of the potential risks at both \nthe micro and macro levels. Risks can be identified and subsequently tracked at summary, control account, and/or \nwork package levels</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Scope_Baseline</IRI>
+        <Literal> Described in Section 5.4.3.1. Projects of a common or recurrent type tend to have more well-understood risks. \nProjects  using  state-of-the-art  or  first-of-its-kind  technology,  and  highly  complex  projects,  tend  to  have  more \nuncertainty. This can be evaluated by examining the scope baseline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Stakeholder_register</IRI>
+        <Literal> Described  in  Section  13.1.3.1.  The  stakeholder  register,  which  contains  all  details  related  to  the  project’s , stakeholders, provides an overview of their roles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Stakeholder_register</IRI>
+        <Literal> Described in Section 13.1.3.1. Information about the stakeholders is useful for soliciting inputs to identify risks, \nas this will ensure that key stakeholders, especially the stakeholder, sponsor, and customer are interviewed or \notherwise participate during the Identify Risks process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Strategies_for_Positive_risks_or_opportunities</IRI>
+        <Literal>Three of the four responses are suggested to deal with risks with potentially positive impacts on project objectives. \nThe fourth strategy, accept, can be used for negative risks or threats as well as positive risks or opportunities. These \nstrategies, described below, are to exploit, share, enhance, and accept.  Exploit. The exploit strategy may be selected for risks with positive impacts where the organization wishes \nto ensure that the opportunity is realized. This strategy seeks to eliminate the uncertainty associated with \na particular upside risk by ensuring the opportunity definitely happens. Examples of directly exploiting \nresponses include assigning an organization’s most talented resources to the project to reduce the time \nto completion or using new technologies or technology upgrades to reduce cost and duration required to realize project objectives.
+Enhance. The enhance strategy is used to increase the probability and/or the positive impacts of an opportunity. Identifying and maximizing key drivers of these positive-impact risks may increase the probability of their occurrence. Examples of enhancing opportunities include adding more resources to an activity to finish early.
+Share. Sharing a positive risk involves allocating some or all of the ownership of the opportunity to a third party who is best able to capture the opportunity for the benefit of the project. Examples of sharing actions include forming risk-sharing partnerships, teams, special-purpose companies, or joint ventures, which can be established with the express purpose of taking advantage of the opportunity so that all parties gain from their actions.
+Accept. Accepting an opportunity is being willing to take advantage of the opportunity if it arises, but not actively pursuing it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Strategies_for_negative_risks_or_threats</IRI>
+        <Literal>Three strategies, which typically deal with threats or risks that may have negative impacts on project objectives \nif they occur, are: avoid, transfer, and mitigate. The fourth strategy, accept, can be used for negative risks or threats \nas well as positive risks or opportunities. Each of these risk response strategies have varied and unique influence \non the risk condition. These strategies should be chosen to match the risk’s probability and impact on the project’s \noverall objectives. Avoidance and mitigation strategies are usually good strategies for critical risks with high impact, \nwhile transference and acceptance are usually good strategies for threats that are less critical and with low overall \nimpact. The four strategies for dealing with negative risks or threats are further described as follows:  Avoid. Risk avoidance is a risk response strategy whereby the project team acts to eliminate the threat or \nprotect the project from its impact. It usually involves changing the project management plan to eliminate \nthe threat entirely. The project manager may also isolate the project objectives from the risk’s impact or \nchange the objective that is in jeopardy. Examples of this include extending the schedule, changing the \nstrategy, or reducing scope. The most radical avoidance strategy is to shut down the project entirely. \nSome risks that arise early in the project can be avoided by clarifying requirements, obtaining information, \nimproving communication, or acquiring expertise.  transfer. Risk transference is a risk response strategy whereby the project team shifts the impact of \na  threat  to  a  third  party,  together  with  ownership  of  the  response. Transferring  the  risk  simply  gives \nanother party responsibility for its management—it does not eliminate it. Transferring does not mean \ndisowning the risk by transferring it to a later project or another person without his or her knowledge or \nagreement. Risk transference nearly always involves payment of a risk premium to the party taking on \nthe risk. Transferring liability for risk is most effective in dealing with financial risk exposure. Transference \ntools can be quite diverse and include, but are not limited to, the use of insurance, performance bonds, \nwarranties, guarantees, etc. Contracts or agreements may be used to transfer liability for specified risks \nto another party. For example, when a buyer has capabilities that the seller does not possess, it may be \nprudent to transfer some work and its concurrent risk contractually back to the buyer. In many cases, use \nof a cost-plus contract may transfer the cost risk to the buyer, while a fixed-price contract may transfer \nrisk to the seller.
+Mitigate. Risk mitigation is a risk response strategy whereby the project team acts to reduce the probability of occurrence or impact of a risk. It implies a reduction in the probability and/or impact of an adverse risk to be within acceptable threshold limits. Taking early action to reduce the probability and/or impact of a risk occurring on the project is often more effective than trying to repair the damage after the risk has occurred. Adopting less complex processes, conducting more tests, or choosing a more stable supplier are examples of mitigation actions. Mitigation may require prototype development to reduce the risk of scaling up from a bench-scale model of a process or product. Where it is not possible to reduce probability, a mitigation response might address the risk impact by targeting linkages that determine the severity. For example, designing redundancy into a system may reduce the impact from a failure of the original component.
+Accept. Risk acceptance is a risk response strategy whereby the project team decides to acknowledge the risk and not take any action unless the risk occurs. This strategy is adopted where it is not possible or cost-effective to address a specific risk in any other way. This strategy indicates that the project team has decided not to change the project management plan to deal with a risk, or is unable to identify any other suitable response strategy. This strategy can be either passive or active. Passive acceptance requires no action except to document the strategy, leaving the project team to deal with the risks as they occur, and to periodically review the threat to ensure that it does not change significantly. The most common active acceptance strategy is to establish a contingency reserve, including amounts of time, money, or resources to handle the risks.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Variance_and_trend_Analysis</IRI>
+        <Literal> Many control processes employ variance analysis to compare the planned results to the actual results. For the \npurposes of controlling risks, trends in the project’s execution should be reviewed using performance information. \nEarned value analysis and other methods of project variance and trend analysis may be used for monitoring overall \nproject performance. Outcomes from these analyses may forecast potential deviation of the project at completion \nfrom cost and schedule targets. Deviation from the baseline plan may indicate the potential impact of threats or \nopportunities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Work_Performance_Information</IRI>
+        <Literal> Work performance information, as a Control Risks output, provides a mechanism to communicate and supportproject decision making</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Work_Performance_data</IRI>
+        <Literal> Described in Section 4.3.3.2. Work performance data related to various performance results possibly impactedby risks includes, but is not limited to: Deliverable status, Schedule progress, and Costs incurred</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Work_Performance_reports</IRI>
+        <Literal> Described  in  Section  4.4.3.2. Work  performance  reports  take  information  from  performance  measurements \nand analyze it to provide project work performance information including variance analysis, earned value data, and \nforecasting data. These data points could be impactful in controlling performance related risks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#change_requests</IRI>
+        <Literal>Implementing contingency plans or workarounds sometimes results in a change request. Change requests are \nprepared  and  submitted  to  the  Perform  Integrated  Change  Control  process  (Section  4.5).  Change  requests  can \ninclude recommended corrective and preventive actions as well.  recommended  corrective  actions. These  are  activities  that  realign  the  performance  of  the  project \nwork with the project management plan. They include contingency plans and workarounds. The latter \nare  responses  that  were  not  initially  planned,  but  are  required  to  deal  with  emerging  risks  that  were \npreviously unidentified or accepted passively.  recommended  preventive  actions.  These  are  activities  that  ensure  that  future  performance  of  the project work is aligned with the project management plan.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#checklist_Analysis</IRI>
+        <Literal> Risk identification checklists are developed based on historical information and knowledge that has been \naccumulated from previous similar projects and from other sources of information. The lowest level of the RBS \ncan also be used as a risk checklist. While a checklist may be quick and simple, it is impossible to build an \nexhaustive one, and care should be taken to ensure the checklist is not used to avoid the effort of proper risk \nidentification. The team should also explore items that do not appear on the checklist. Additionally, the checklist \nshould be pruned from time to time to remove or archive related items. The checklist should be reviewed during \nproject closure to incorporate new lessons learned and improve it for use on future projects</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#contingent_response_Strategies</IRI>
+        <Literal> Some  responses  are  designed  for  use  only  if  certain  events  occur.  For  some  risks,  it  is  appropriate  for \nthe  project  team  to  make  a  response  plan  that  will  only  be  executed  under  certain  predefined  conditions,  if \nit is believed that there will be sufficient warning to implement the plan. Events that trigger the contingency \nresponse, such as missing intermediate milestones or gaining higher priority with a supplier, should be defined \nand tracked. Risk responses identified using this technique are often called contingency plans or fallback plans \nand include identified triggering events that set the plans in effect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#control_risks</IRI>
+        <Literal> Control Risks is the process of implementing risk response plans, tracking identified risks, monitoring residual \nrisks, identifying new risks, and evaluating risk process effectiveness throughout the project. The key benefit of \nthis process is that it improves efficiency of the risk approach throughout the project life cycle to continuously \noptimize risk responses. The inputs, tools and techniques, and outputs of this process are depicted in Figure 11-20. \nFigure 11-21 depicts the data flow diagram of the process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#control_risks_Inputs</IRI>
+        <Literal> </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#control_risks_outputs</IRI>
+        <Literal> </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#control_risks_tools_and_techniques</IRI>
+        <Literal> </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#cost_Management_Plan</IRI>
+        <Literal> Described in Section 7.1.3.1. The cost management plan provides guidelines on establishing and managing risk reserves</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#cost_Management_Plan</IRI>
+        <Literal>Described in Section 7.1.3.1. The cost management plan provides processes and controls that can be used to help identify risks across the project</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#data_Gathering_and_representation_techniques</IRI>
+        <Literal>Interviewing. Interviewing techniques draw on experience and historical data to quantify the probability \nand impact of risks on project objectives. The information needed depends upon the type of probability \ndistributions  that  will  be  used.  For  instance,  information  would  be  gathered  on  the  optimistic  (low), \npessimistic (high), and most likely scenarios for some commonly used distributions. Examples of three-\npoint  estimates  for  cost  are  shown  in  Figure  11-13.  Additional  information  on  three-point  estimates \nappears in Estimate Activity Durations (Section 6.5) and Estimate Costs (Section 7.2). Documenting the \nrationale  of  the  risk  ranges  and  the  assumptions  behind  them  are  important  components  of  the  risk \ninterview because they can provide insight on the reliability and credibility of the analysis.
+Probability distributions. Continuous probability distributions, which are used extensively in modeling and simulation, represent the uncertainty in values such as durations of schedule activities and costs of project components. Discrete distributions can be used to represent uncertain events, such as the outcome of a test or a possible scenario in a decision tree. Two examples of widely used continuous distributions are shown in Figure 11-14. These distributions depict shapes that are compatible with the data typically developed during the quantitative risk analysis. Uniform distributions can be used if there is no obvious value that is more likely than any other between specified high and low bounds, such as in the early concept stage of design.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#diagramming_techniques</IRI>
+        <Literal>Risk diagramming techniques may include: C ause and effect diagrams. These are also known as Ishikawa or fishbone diagrams and are useful for identifying causes of risks. System or process flow charts. These show how various elements of a system interrelate and the mechanism of causation. Influence diagrams. These are graphical representations of situations showing causal influences, time ordering of events, and other relationships among variables and outcomes, as shown in Figure 11-7.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#documentation_reviews</IRI>
+        <Literal> A structured review of the project documentation may be performed, including plans, assumptions, previous \nproject files, agreements, and other information. The quality of the plans, as well as consistency between those \nplans and the project requirements and assumptions, may be indicators of risk in the project</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#organizational_Process_Assets</IRI>
+        <Literal> Described in Section 2.1.4. The organizational process assets that can influence the Perform Qualitative Risk \n Analysis process include information on prior, similar completed projects</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#organizational_Process_Assets</IRI>
+        <Literal> Described in Section 2.1.4. The organizational process assets that can influence the Perform Quantitative Risk \n Analysis process include information from prior, similar completed projects</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#organizational_Process_Assets</IRI>
+        <Literal>Described in Section 2.1.4. Organizational process assets that can influence the Identify Risks process include, Described in Section 2.1.4. Organizational process assets that can influence the Identify Risks process include,  but are not limited to: Project files, including actual data, Organizational and project process controls, Risk statement formats or templates, and Lessons learned</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#organizational_Process_Assets</IRI>
+        <Literal>Described in Section 2.1.4. The organizational process assets that can influence the Plan Risk Management \n process include, but are not limited to:  Risk categories, Common definitions of concepts and terms, Risk statement formats, Standard templates, Roles and responsibilities, Authority levels for decision making, and Lessons learned.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#organizational_Process_Assets_updates</IRI>
+        <Literal>The  risk  management  processes  produce  information  that  may  be  used  for  future  projects,  and  should  be \ncaptured in the organizational process assets. The organizational process assets that may be updated include, but \nare not limited to: Templates for the risk management plan, including the probability and impact matrix and risk register, Risk breakdown structure, and Lessons learned from the project risk management activities.\n These documents should be updated as needed and at project closure. Final versions of the risk register and the \n risk management plan templates, checklists, and risk breakdown structure are included</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#reserve_Analysis</IRI>
+        <Literal>Throughout  execution  of  the  project,  some  risks  may  occur  with  positive  or  negative  impacts  on  budget  or \nschedule contingency reserves. Reserve analysis compares the amount of the contingency reserves remaining to \nthe amount of risk remaining at any time in the project in order to determine if the remaining reserve is adequate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#risk_Audits</IRI>
+        <Literal> Risk audits examine and document the effectiveness of risk responses in dealing with identified risks and their \nroot causes, as well as the effectiveness of the risk management process. The project manager is responsible for \nensuring that risk audits are performed at an appropriate frequency, as defined in the project’s risk management \nplan. Risk audits may be included during routine project review meetings, or the team may choose to hold separate \nrisk audit meetings. The format for the audit and its objectives should be clearly defined before the audit is conducted</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#risk_Management_Plan</IRI>
+        <Literal> Described in Section 11.1.3.1. Key elements of the risk management plan used in the Perform Qualitative Risk \nAnalysis process include roles and responsibilities for conducting risk management, budgets, schedule activities \nfor  risk  management,  risk  categories,  definitions  of  probability  and  impact,  the  probability  and  impact  matrix, \nand  revised  stakeholders’  risk  tolerances. These  inputs  are  usually  tailored  to  the  project  during  the  Plan  Risk \nManagement process. If they are not available, they may be developed during the Perform Qualitative Risk Analysis \nprocess</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#risk_Management_Plan</IRI>
+        <Literal> Described in Section 11.1.3.1. The risk management plan provides guidelines, methods, and tools to be used in quantitative risk analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#risk_Management_Plan</IRI>
+        <Literal> Important components of the risk management plan include roles and responsibilities, risk analysis definitions, \ntiming for reviews (and for eliminating risks from review), and risk thresholds for low, moderate, and high risks. Risk \nthresholds help identify those risks for which specific responses are needed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#risk_Management_Plan</IRI>
+        <Literal>Described in Section 11.1.3.1. The risk management plan provides guidelines, methods, and tools to be used in quantitative risk analysis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#risk_Management_Plan</IRI>
+        <Literal>The risk management plan is a component of the project management plan and describes how risk management \n activities will be structured and performed. The risk management plan includes the following:  Methodology.  Defines  the  approaches,  tools,  and  data  sources  that  will  be  used  to  perform  risk \n management on the project.  roles and responsibilities. Defines the lead, support, and risk management team members for each \n type of activity in the risk management plan, and clarifies their responsibilities.  Budgeting. Estimates funds needed, based on assigned resources, for inclusion in the cost baseline and \n establishes protocols for application of contingency and management reserves.  timing. Defines when and how often the risk management processes will be performed throughout the \nproject life cycle, establishes protocols for application of schedule contingency reserves, and establishes \nrisk management activities for inclusion in the project schedule. Risk categories. Provide a means for grouping potential causes of risk. Several approaches can be used, for example, a structure based on project objectives by category. A risk breakdown structure (RBS) helps the project team to look at many sources from which project risk may arise in a risk identification exercise. Different RBS structures will be appropriate for different types of projects. An organization can use a previously prepared custom categorization framework, which may take the form of a simple list of categories or may be structured into an RBS. The RBS is a hierarchical representation of risks according to their risk categories. An example is shown in Figure 11-4. D efinitions of risk probability and impact. The quality and credibility of the risk analysis requires that different levels of risk probability and impact be defined that are specific to the project context. General definitions of probability levels and impact levels are tailored to the individual project during the Plan Risk Management process for use in subsequent processes. Table 11-1 is an example of definitions of negative impacts that could be used in evaluating risk impacts related to four project objectives. (Similar tables may be established with a positive impact perspective). Table 11-1 illustrates both relative and numerical (in this case, nonlinear) approaches. Probability and impact matrix. A probability and impact matrix is a grid for mapping the probability of each risk occurrence and its impact on project objectives if that risk occurs. Risks are prioritized according to their potential implications for having an effect on the project’s objectives. A typical
+approach to prioritizing risks is to use a look-up table or a probability and impact matrix. The specific combinations of probability and impact that lead to a risk being rated as “high,” “moderate,” or “low” importance are usually set by the organization.  R evised stakeholders’ tolerances. Stakeholders’ tolerances, as they apply to the specific project, may be revised in the Plan Risk Management process. Reporting formats. Reporting formats define how the outcomes of the risk management process will be documented, analyzed,  and communicated. It describes the content and format of the risk register as well as any other risk reports required. Tracking. Tracking documents how risk activities will be recorded for the benefit of the current project and how risk management processes will be audited.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#risk_Probability_and_Impact_Assessment</IRI>
+        <Literal> Risk  probability  assessment  investigates  the  likelihood  that  each  specific  risk  will  occur.  Risk  impact \nassessment investigates the potential effect on a project objective such as schedule, cost, quality, or performance, \nincluding both negative effects for threats and positive effects for opportunities.\n Probability and impact are assessed for each identified risk. Risks can be assessed in interviews or meetings \nwith participants selected for their familiarity with the risk categories on the agenda. Project team members and \nknowledgeable persons external to the project are included.\n The level of probability for each risk and its impact on each objective is evaluated during the interview or meeting. \nExplanatory  detail,  including  assumptions  justifying  the  levels  assigned,  are  also  recorded.  Risk  probabilities \nand impacts are rated according to the definitions given in the risk management plan. Risks with low ratings of \nprobability and impact will be included within the risk register as part of the watch list for future monitoring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#risk_categorization</IRI>
+        <Literal> Risks to the project can be categorized by sources of risk (e.g., using the RBS), the area of the project affected \n(e.g., using the WBS), or other useful categories (e.g., project phase) to determine the areas of the project most \nexposed to the effects of uncertainty. Risks can also be categorized by common root causes. This technique helps \ndetermine work packages, activities, project phases or even roles in the project, which can lead to the development \nof effective risk responses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#risk_data_Quality_Assessment</IRI>
+        <Literal>Risk  data  quality  assessment  is  a  technique  to  evaluate  the  degree  to  which  the  data  about  risks  is  useful \nfor risk management. It involves examining the degree to which the risk is understood and the accuracy, quality, \nreliability, and integrity of the data about the risk.\n The use of low-quality risk data may lead to a qualitative risk analysis of little use to the project. If data quality is \nunacceptable, it may be necessary to gather better data. Often, the collection of information about risks is difficult, \nand consumes more time and resources than originally planned. The values used in the example in Figure 11-10 \nare representative. The numbers of steps in the scale are usually established when defining the risk attitude of the organization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#risk_reassessment</IRI>
+        <Literal>Control Risks often results in identification of new risks, reassessment of current risks, and the closing of risks that are outdated. Project risk reassessments should be regularly scheduled. The amount and detail of repetition that are appropriate depends on how the project progresses relative to its objectives.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#risk_register</IRI>
+        <Literal> Described in Section 11.2.3.1. The risk register contains the information that will be used to assess and prioritize risks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#risk_register</IRI>
+        <Literal> The  risk  register  has  key  inputs  that  include  identified  risks  and  risk  owners,  agreed-upon  risk  responses, \ncontrol actions for assessing the effectiveness of response plans, risk responses, specific implementation actions, \nsymptoms and warning signs of risk, residual and secondary risks, a watch list of low-priority risks, and the time \nand cost contingency reserves. The watch list is within the risk register and provides a list of low-priority risks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#risk_register</IRI>
+        <Literal> The risk register refers to identified risks, root causes of risks, lists of potential responses, risk owners, symptoms \nand warning signs, the relative rating or priority list of project risks, risks requiring responses in the near term, risks \nfor additional analysis and response, trends in qualitative analysis results, and a watch list, which is a list of low-\npriority risks within the risk register</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#risk_register</IRI>
+        <Literal>Described in Section 11.2.3.1. The risk register is used as a reference point for performing quantitative risk analysis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#risk_register</IRI>
+        <Literal>The primary output from Identify Risks is the initial entry into the risk register. The risk register is a document in which the results of risk analysis and risk response planning are recorded. It contains the outcomes of the other risk management processes as they are conducted, resulting in an increase in the level and type of information contained in the risk register over time. The preparation of the risk register begins in the Identify Risks process with the following information, and then becomes available to other project management and risk management processes:  List of identified risks. The identified risks are described in as much detail as is reasonable. A structure for describing risks using risk statements may be applied, for example, EVENT may occur causing IMPACT, or If CAUSE exists, EVENT may occur leading to EFFECT. In addition to the list of identified risks, the root causes of those risks may become more evident. These are the fundamental conditions or events that may give rise to one or more identified risks. They should be recorded and used to support future risk identification for this and other projects. List of potential responses. Potential responses to a risk may sometimes be identified during the Identify Risks process. These responses, if identified in this process, should be used as inputs to the Plan Risk Responses process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#risk_urgency_Assessment</IRI>
+        <Literal> Risks  requiring  near-term  responses  may  be  considered  more  urgent  to  address.  Indicators  of  priority  may \ninclude  probability  of  detecting  the  risk,  time  to  affect  a  risk  response,  symptoms  and  warning  signs,  and  the \nrisk rating. In some qualitative analyses, the assessment of risk urgency is combined with the risk ranking that is \ndetermined from the probability and impact matrix to give a final risk severity rating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#technical_Performance_Measurement</IRI>
+        <Literal>Technical  performance  measurement  compares  technical  accomplishments  during  project  execution  to  the \nschedule  of  technical  achievement.  It  requires  the  definition  of  objective,  quantifiable  measures  of  technical \nperformance, which can be used to compare actual results against targets. Such technical performance measures \nmay  include  weight,  transaction  times,  number  of  delivered  defects,  storage  capacity,  etc.  Deviation,  such  as \ndemonstrating more or less functionality than planned at a milestone, can help to forecast the degree of success \nin achieving the project’s scope.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal>Project Risk Management includes the processes of conducting risk management planning, identification, analysis, response planning, and controlling risk on a project. The objectives of project risk management are to increase the likelihood and impact of positive events, and decrease the likelihood and impact of negative events in the project.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

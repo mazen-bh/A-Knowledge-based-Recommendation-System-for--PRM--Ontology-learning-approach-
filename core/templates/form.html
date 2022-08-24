@@ -1,0 +1,86 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %} Page User {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+<center>     <h3 class="card-title"><i class="tim-icons icon-send text-success"></i> Recommendation System 📰 Input</h3></center>   
+
+      </div>
+      <div class="card-body">
+
+        <form action="{% url 'result' %}">
+
+           {% csrf_token %}
+          
+          <div class="row">
+            <div class="col-md-5 pr-md-4">
+              <div class="form-group">
+                <label>Input</label>
+                <input type="hidden" class="form-control" >  
+
+                <input type="text" class="form-control" required name="query_sentence" id="cp">
+
+              </div>
+            </div>
+           
+          
+         
+          
+          
+
+
+           
+
+          
+
+
+
+            <div class="col-md-4 pl-md-1">
+              <div class="form-group">
+                
+
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="form-group">
+                
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button type="submit" class="btn btn-fill btn-primary" >Analyze</button>
+          </div>
+        </form>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+
+
+
+<script>
+  $(document).ready(function() {
+    // Javascript method's body can be found in assets/js/demos.js
+    demo.display();
+
+  });
+</script>
+
+{% endblock javascripts %}

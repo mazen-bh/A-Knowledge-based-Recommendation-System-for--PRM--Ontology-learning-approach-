@@ -1,0 +1,113 @@
+{% extends 'layouts/base.html' %}
+
+          {% block title %} Result {% endblock %} 
+          
+          <!-- Specific Page CSS goes HERE  -->
+          {% block stylesheets %}{% endblock stylesheets %}
+          
+          {% block content %}
+
+          <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+          
+          <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4"></script>
+      
+          
+
+
+
+
+<center>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="card">
+                      <div class="card-header">
+                        <h3 class="card-title"><i class="tim-icons icon-send text-success"></i> Result</h3>
+                      </div>
+                      <div class="card-body">
+                        
+                        
+                        <div class="alert alert-danger alert-with-icon" data-notify="container">
+                          <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+                            <i class="tim-icons icon-simple-remove"></i>
+                          </button>
+                          <span data-notify="icon" class="tim-icons icon-bell-55"></span>
+                          <span data-notify="message">{{concept_name}}</span>
+                        </div>
+                       
+                      
+
+                        
+
+                        <div class="alert alert-danger alert-with-icon" data-notify="container">
+                          <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+                            <i class="tim-icons icon-simple-remove"></i>
+                          </button>
+                          <span data-notify="icon" class="tim-icons icon-bell-55"></span>
+                          {% csrf_token %}
+
+                          {% for i in sous_concept %}
+                          <span  data-notify="message"><a href="/result3/?i={{ i }}" style="color: antiquewhite" >{{i}}</a></span>
+
+                          {% endfor %}
+                        </div>
+
+
+                        
+                         
+                        
+
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                </center>
+
+
+
+
+
+
+
+
+
+
+               
+              
+  
+  
+             
+
+
+
+
+
+
+
+
+
+
+
+            
+              
+            
+                    
+
+
+                     
+          
+
+
+
+
+
+                  
+
+
+              {% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
